@@ -1,3 +1,5 @@
+import qr from "../img/qr.png"
+
 const Home = () => {
   return (
     <div className="home">
@@ -12,12 +14,16 @@ const Home = () => {
         laudantium ullam laborum.
       </p>
       <p>
-        
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_1DjIR8hgx3qQOQzTkgpL6h2ZYrR2vrKpXfabHsQON_P03g/viewform?usp=sf_link" target="_blank">
+        <img src={qr} width={200} height={200} alt="qr code" />
+      </p>
+      <p>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSc_1DjIR8hgx3qQOQzTkgpL6h2ZYrR2vrKpXfabHsQON_P03g/viewform?usp=sf_link"
+          target="_blank"
+        >
           Leave your feedback
         </a>
       </p>
-     
     </div>
   );
 };

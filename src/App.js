@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <header>
         <nav>
-          <h1>Router</h1>
+          <h1>WIC 70415 UX</h1>
           <Link to="/">Home</Link>
           <NavLink to="tasktwo">TASK 2</NavLink>
           <NavLink to="taskfive">TASK 5</NavLink>
