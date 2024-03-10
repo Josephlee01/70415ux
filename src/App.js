@@ -22,14 +22,13 @@ function App() {
       </header>
       <main>
         <Routes>
-          <Route index element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="tasktwo" element={<TaskTwo />} />
           <Route path="taskfive" element={<TaskFive />} />
           <Route path="about" element={<About />} />
           <Route path="products" element={<Products />} />
           <Route path="contact" element={<Contact />} />
         </Routes>
-       
       </main>
       <footer>
         <h2> WIC 70415 JINWOONG LEE</h2>
