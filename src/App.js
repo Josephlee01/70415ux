@@ -8,7 +8,7 @@ import TaskFive from './pages/TaskFive';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <header>
         <nav>
           <h1>WIC 70415 UX</h1>
